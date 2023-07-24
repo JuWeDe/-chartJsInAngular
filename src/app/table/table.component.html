@@ -1,0 +1,14 @@
+<table>
+    <thead>
+      <tr>
+        <th>Reason Group</th>
+        <th>Count</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let row of data">
+        <td>{{ row.reason_group }}</td>
+        <td>{{ row.count }}</td>
+      </tr>
+    </tbody>
+  </table>
